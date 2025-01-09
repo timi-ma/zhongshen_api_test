@@ -1,0 +1,111 @@
+[ {
+  "uid" : "a1b698f4e0d1ca24",
+  "name" : "测试用例结果",
+  "time" : {
+    "start" : 1736317924611,
+    "stop" : 1736317924634,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "35b59e2c3224cf58",
+  "name" : "测试用例结果",
+  "time" : {
+    "start" : 1736317924259,
+    "stop" : 1736317924323,
+    "duration" : 64
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e3e3e9e0e9399d27",
+  "name" : "测试用例结果",
+  "time" : {
+    "start" : 1736317924461,
+    "stop" : 1736317924487,
+    "duration" : 26
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e5210fa75b850543",
+  "name" : "测试用例结果",
+  "time" : {
+    "start" : 1736317924580,
+    "stop" : 1736317924606,
+    "duration" : 26
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2374e3c09ce3b7e8",
+  "name" : "测试用例结果",
+  "time" : {
+    "start" : 1736317924369,
+    "stop" : 1736317924451,
+    "duration" : 82
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bc65ea6e55b32054",
+  "name" : "测试用例结果",
+  "time" : {
+    "start" : 1736317924203,
+    "stop" : 1736317924249,
+    "duration" : 46
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c5727f16b9b11b7",
+  "name" : "测试用例结果",
+  "time" : {
+    "start" : 1736317924520,
+    "stop" : 1736317924548,
+    "duration" : 28
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f474dd59338a32af",
+  "name" : "测试用例结果",
+  "time" : {
+    "start" : 1736317924333,
+    "stop" : 1736317924364,
+    "duration" : 31
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f58eb798a02cb258",
+  "name" : "测试用例结果",
+  "time" : {
+    "start" : 1736317924553,
+    "stop" : 1736317924576,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a53dc28e8acb024",
+  "name" : "测试用例结果",
+  "time" : {
+    "start" : 1736317924638,
+    "stop" : 1736317924662,
+    "duration" : 24
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d66696b1e4e5581",
+  "name" : "测试用例结果",
+  "time" : {
+    "start" : 1736317924492,
+    "stop" : 1736317924516,
+    "duration" : 24
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,92 @@
+{
+  "uid" : "5c5727f16b9b11b7",
+  "name" : "测试用例结果",
+  "fullName" : "Test_Api_Case.test_01_setUserLevel#test_setUserLevel",
+  "historyId" : "c056eaed60560f736a37ceb96859b979",
+  "time" : {
+    "start" : 1736317924520,
+    "stop" : 1736317924548,
+    "duration" : 28
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "start_demo",
+    "time" : {
+      "start" : 1736317924201,
+      "stop" : 1736317924201,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "start_demo::fin",
+    "time" : {
+      "start" : 1736317924664,
+      "stop" : 1736317924664,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "修改用户等级接口"
+  }, {
+    "name" : "epic",
+    "value" : "众神接口测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Api_Case"
+  }, {
+    "name" : "suite",
+    "value" : "test_01_setUserLevel"
+  }, {
+    "name" : "host",
+    "value" : "MININT-FMKPO39"
+  }, {
+    "name" : "thread",
+    "value" : "1884-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Api_Case.test_01_setUserLevel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'编号': 7, '用例标题': '填写无效的服务id', '请求方式': 'post', '请求地址': 'http://47.95.240.88:9621/mj-game-server/gods/game?m=', '请求参数': '{\"open_id\":\"OXFuYkRWOGpuWGs5R3gwUXVQa0lJdz09\",\"momo_token\":\"h5\",\"mid\":\"active.getDailyTask\",\"type\":1,\"server_id\":\"1001\"}', '预期结果': '{\\n    \"ec\": 112,\\n    \"em\": \"server不存在\"\\n}'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5c5727f16b9b11b7.json",
+  "parameterValues" : [ "{'编号': 7, '用例标题': '填写无效的服务id', '请求方式': 'post', '请求地址': 'http://47.95.240.88:9621/mj-game-server/gods/game?m=', '请求参数': '{\"open_id\":\"OXFuYkRWOGpuWGs5R3gwUXVQa0lJdz09\",\"momo_token\":\"h5\",\"mid\":\"active.getDailyTask\",\"type\":1,\"server_id\":\"1001\"}', '预期结果': '{\\n    \"ec\": 112,\\n    \"em\": \"server不存在\"\\n}'}" ]
+}

@@ -1,0 +1,92 @@
+{
+  "uid" : "35b59e2c3224cf58",
+  "name" : "测试用例结果",
+  "fullName" : "Test_Api_Case.test_01_setUserLevel#test_setUserLevel",
+  "historyId" : "cca10057cfc0b9fa9f26b7d25440ef00",
+  "time" : {
+    "start" : 1736317924259,
+    "stop" : 1736317924323,
+    "duration" : 64
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "start_demo",
+    "time" : {
+      "start" : 1736317924201,
+      "stop" : 1736317924201,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "start_demo::fin",
+    "time" : {
+      "start" : 1736317924664,
+      "stop" : 1736317924664,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "修改用户等级接口"
+  }, {
+    "name" : "epic",
+    "value" : "众神接口测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Api_Case"
+  }, {
+    "name" : "suite",
+    "value" : "test_01_setUserLevel"
+  }, {
+    "name" : "host",
+    "value" : "MININT-FMKPO39"
+  }, {
+    "name" : "thread",
+    "value" : "1884-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Api_Case.test_01_setUserLevel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'编号': 2, '用例标题': '填写经验值超过标准', '请求方式': 'post', '请求地址': 'http://47.95.240.88:9621/debug/setUserLevel', '请求参数': '{\\n \"open_id\": \"OXFuYkRWOGpuWGs5R3gwUXVQa0lJdz09\",\\n \"level\": 80,\\n \"exp\": 33800000,\\n \"server_id\": 10001\\n}', '预期结果': '{\\n \"ec\": 200,\\n \"em\": \"请求成功\",\\n}'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "35b59e2c3224cf58.json",
+  "parameterValues" : [ "{'编号': 2, '用例标题': '填写经验值超过标准', '请求方式': 'post', '请求地址': 'http://47.95.240.88:9621/debug/setUserLevel', '请求参数': '{\\n \"open_id\": \"OXFuYkRWOGpuWGs5R3gwUXVQa0lJdz09\",\\n \"level\": 80,\\n \"exp\": 33800000,\\n \"server_id\": 10001\\n}', '预期结果': '{\\n \"ec\": 200,\\n \"em\": \"请求成功\",\\n}'}" ]
+}
