@@ -7,143 +7,143 @@
       "name" : "修改用户等级接口",
       "children" : [ {
         "name" : "测试用例结果",
-        "uid" : "bc65ea6e55b32054",
+        "uid" : "6f4e92ffaf5fc187",
         "parentUid" : "480c12480bb622af53f3f1bdb1427c50",
         "status" : "passed",
         "time" : {
-          "start" : 1736317924203,
-          "stop" : 1736317924249,
-          "duration" : 46
+          "start" : 1736850779664,
+          "stop" : 1736850779717,
+          "duration" : 53
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'编号': 1, '用例标题': '正常修改用户等级', '请求方式': 'post', '请求地址': 'http://47.95.240.88:9621/debug/setUserLevel', '请求参数': '{\\n \"open_id\": \"OXFuYkRWOGpuWGs5R3gwUXVQa0lJdz09\",\\n \"level\": 60,\\n \"exp\": 3380,\\n \"server_id\": 10001\\n}', '预期结果': '{\\n \"ec\": 200,\\n \"em\": \"请求成功\",\\n}'}" ]
       }, {
         "name" : "测试用例结果",
-        "uid" : "35b59e2c3224cf58",
+        "uid" : "da899692514f0d8",
         "parentUid" : "480c12480bb622af53f3f1bdb1427c50",
         "status" : "passed",
         "time" : {
-          "start" : 1736317924259,
-          "stop" : 1736317924323,
-          "duration" : 64
+          "start" : 1736850779722,
+          "stop" : 1736850779755,
+          "duration" : 33
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'编号': 2, '用例标题': '填写经验值超过标准', '请求方式': 'post', '请求地址': 'http://47.95.240.88:9621/debug/setUserLevel', '请求参数': '{\\n \"open_id\": \"OXFuYkRWOGpuWGs5R3gwUXVQa0lJdz09\",\\n \"level\": 80,\\n \"exp\": 33800000,\\n \"server_id\": 10001\\n}', '预期结果': '{\\n \"ec\": 200,\\n \"em\": \"请求成功\",\\n}'}" ]
       }, {
         "name" : "测试用例结果",
-        "uid" : "f474dd59338a32af",
+        "uid" : "def3db72286abea6",
         "parentUid" : "480c12480bb622af53f3f1bdb1427c50",
         "status" : "passed",
         "time" : {
-          "start" : 1736317924333,
-          "stop" : 1736317924364,
-          "duration" : 31
+          "start" : 1736850779760,
+          "stop" : 1736850779783,
+          "duration" : 23
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'编号': 3, '用例标题': '填写等级值超过标准', '请求方式': 'post', '请求地址': 'http://47.95.240.88:9621/debug/setUserLevel', '请求参数': '{\\n \"open_id\": \"OXFuYkRWOGpuWGs5R3gwUXVQa0lJdz09\",\\n \"level\": 8000,\\n \"exp\": 3380,\\n \"server_id\": 10001\\n}', '预期结果': '{\\n    \"ec\": 112,\\n    \"em\": \"等级不存在\",\\n}'}" ]
       }, {
         "name" : "测试用例结果",
-        "uid" : "2374e3c09ce3b7e8",
+        "uid" : "a5a83be070b3a6",
         "parentUid" : "480c12480bb622af53f3f1bdb1427c50",
         "status" : "passed",
         "time" : {
-          "start" : 1736317924369,
-          "stop" : 1736317924451,
-          "duration" : 82
+          "start" : 1736850779788,
+          "stop" : 1736850779834,
+          "duration" : 46
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'编号': 4, '用例标题': '正常冒险战斗', '请求方式': 'post', '请求地址': 'http://47.95.240.88:9621/mj-game-server/gods/game?n=json&m=', '请求参数': '{\"open_id\": \"OXFuYkRWOGpuWGs5R3gwUXVQa0lJdz09\", \"momo_token\": \"h5\", \"mid\": \"mainLine.battle\", \"server_id\": \"10001\"}', '预期结果': '{\\n    \"ec\": 200,\\n    \"em\": \"请求成功\",\\n\\n}'}" ]
       }, {
         "name" : "测试用例结果",
-        "uid" : "e3e3e9e0e9399d27",
+        "uid" : "d9944446e21c357",
         "parentUid" : "480c12480bb622af53f3f1bdb1427c50",
         "status" : "passed",
         "time" : {
-          "start" : 1736317924461,
-          "stop" : 1736317924487,
-          "duration" : 26
+          "start" : 1736850779844,
+          "stop" : 1736850779867,
+          "duration" : 23
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'编号': 5, '用例标题': '填写无效的服务id', '请求方式': 'post', '请求地址': 'http://47.95.240.88:9621/mj-game-server/gods/game?n=json&m=', '请求参数': '{\"open_id\": \"OXFuYkRWOGpuWGs5R3gwUXVQa0lJdz09\", \"momo_token\": \"h5\", \"mid\": \"mainLine.battle\", \"server_id\": \"10099\"}', '预期结果': '{\\n    \"ec\": 112,\\n    \"em\": \"server不存在\"\\n}'}" ]
       }, {
         "name" : "测试用例结果",
-        "uid" : "5d66696b1e4e5581",
+        "uid" : "164d17e82bc290c4",
         "parentUid" : "480c12480bb622af53f3f1bdb1427c50",
         "status" : "passed",
         "time" : {
-          "start" : 1736317924492,
-          "stop" : 1736317924516,
-          "duration" : 24
+          "start" : 1736850779871,
+          "stop" : 1736850779893,
+          "duration" : 22
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'编号': 6, '用例标题': '正常获取', '请求方式': 'post', '请求地址': 'http://47.95.240.88:9621/mj-game-server/gods/game?m=', '请求参数': '{\"open_id\":\"OXFuYkRWOGpuWGs5R3gwUXVQa0lJdz09\",\"momo_token\":\"h5\",\"mid\":\"active.getDailyTask\",\"type\":1,\"server_id\":\"10001\"}', '预期结果': '{\\n    \"ec\": 200,\\n    \"em\": \"请求成功\",\\n}'}" ]
       }, {
         "name" : "测试用例结果",
-        "uid" : "5c5727f16b9b11b7",
+        "uid" : "abada1948ed192e0",
         "parentUid" : "480c12480bb622af53f3f1bdb1427c50",
         "status" : "passed",
         "time" : {
-          "start" : 1736317924520,
-          "stop" : 1736317924548,
-          "duration" : 28
+          "start" : 1736850779898,
+          "stop" : 1736850779921,
+          "duration" : 23
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'编号': 7, '用例标题': '填写无效的服务id', '请求方式': 'post', '请求地址': 'http://47.95.240.88:9621/mj-game-server/gods/game?m=', '请求参数': '{\"open_id\":\"OXFuYkRWOGpuWGs5R3gwUXVQa0lJdz09\",\"momo_token\":\"h5\",\"mid\":\"active.getDailyTask\",\"type\":1,\"server_id\":\"1001\"}', '预期结果': '{\\n    \"ec\": 112,\\n    \"em\": \"server不存在\"\\n}'}" ]
       }, {
         "name" : "测试用例结果",
-        "uid" : "f58eb798a02cb258",
+        "uid" : "a9b97e6b59b9724f",
         "parentUid" : "480c12480bb622af53f3f1bdb1427c50",
         "status" : "passed",
         "time" : {
-          "start" : 1736317924553,
-          "stop" : 1736317924576,
-          "duration" : 23
+          "start" : 1736850779925,
+          "stop" : 1736850779946,
+          "duration" : 21
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'编号': 8, '用例标题': '不写openid', '请求方式': 'post', '请求地址': 'http://47.95.240.88:9621/mj-game-server/gods/game?m=', '请求参数': '{\"open_id\":\"\",\"momo_token\":\"h5\",\"mid\":\"active.getDailyTask\",\"type\":1,\"server_id\":\"10001\"}', '预期结果': '{\\n    \"ec\": 112,\\n    \"em\": \"请求数据错误\"\\n}'}" ]
       }, {
         "name" : "测试用例结果",
-        "uid" : "e5210fa75b850543",
+        "uid" : "e4c2b2e84fac52d1",
         "parentUid" : "480c12480bb622af53f3f1bdb1427c50",
         "status" : "passed",
         "time" : {
-          "start" : 1736317924580,
-          "stop" : 1736317924606,
-          "duration" : 26
+          "start" : 1736850779951,
+          "stop" : 1736850779974,
+          "duration" : 23
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'编号': 9, '用例标题': '等级未达到开放条件', '请求方式': 'post', '请求地址': 'http://47.95.240.88:9621/mj-game-server/gods/game?n=json&m=', '请求参数': '{\"source\":\"gamecenter\",\"ctime\":1731331710988,\"mid\":\"lode.getLodeInfo\",\"land\":\"3_2\",\"momo_token\":\"h5\",\"camp\":\"3\",\"open_id\":\"OEd2VkZwempqREMrK01xNFpsKy92QT09\",\"server_id\":\"10002\",\"line\":\"1\",\"coordinate\":\"4:4\"}', '预期结果': '{\\n    \"ec\": 125,\\n    \"em\": \"未满足开放条件\"\\n}'}" ]
       }, {
         "name" : "测试用例结果",
-        "uid" : "a1b698f4e0d1ca24",
+        "uid" : "7ef46ddd5ffe0266",
         "parentUid" : "480c12480bb622af53f3f1bdb1427c50",
         "status" : "passed",
         "time" : {
-          "start" : 1736317924611,
-          "stop" : 1736317924634,
-          "duration" : 23
+          "start" : 1736850779978,
+          "stop" : 1736850779999,
+          "duration" : 21
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'编号': 10, '用例标题': '无效server', '请求方式': 'post', '请求地址': 'http://47.95.240.88:9621/mj-game-server/gods/game?n=json&m=', '请求参数': '{\"source\":\"gamecenter\",\"ctime\":1731331710988,\"mid\":\"lode.getLodeInfo\",\"land\":\"3_2\",\"momo_token\":\"h5\",\"camp\":\"3\",\"open_id\":\"OEd2VkZwempqREMrK01xNFpsKy92QT09\",\"server_id\":\"1000\",\"line\":\"1\",\"coordinate\":\"4:4\"}', '预期结果': '{\\n    \"ec\": 112,\\n    \"em\": \"server不存在\"\\n}'}" ]
       }, {
         "name" : "测试用例结果",
-        "uid" : "4a53dc28e8acb024",
+        "uid" : "c922909fb31a1c50",
         "parentUid" : "480c12480bb622af53f3f1bdb1427c50",
         "status" : "passed",
         "time" : {
-          "start" : 1736317924638,
-          "stop" : 1736317924662,
-          "duration" : 24
+          "start" : 1736850780004,
+          "stop" : 1736850780025,
+          "duration" : 21
         },
         "flaky" : false,
         "newFailed" : false,
